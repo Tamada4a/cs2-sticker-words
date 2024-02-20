@@ -1,0 +1,32 @@
+version: "3.7"
+services:
+  frontend:
+    image: "cs2-sticker-words/frontend"
+    container_name: "frontend"
+    build:
+        context: ./frontend
+        dockerfile: Dockerfile
+    ports:
+      - 5173:5173
+  db:
+    image: mysql:8.0
+    restart: always
+    container_name: "db"
+    environment:
+      MYSQL_ROOT_PASSWORD: PASSWORD
+      MYSQL_DATABASE: cs2sw
+    ports:
+      - "3306:3306"
+  backend:
+    image: "cs2-sticker-words/backend"
+    container_name: "backend"
+    build:
+        context: ./backend
+        dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 8080:8080
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/cs2sw?createDatabaseIfNotExist=true
+    depends_on:
+      - db
