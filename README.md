@@ -25,3 +25,6 @@ This service allows you to create words from CS2 stickers. The idea of creating 
       4. Go to the `frontend` folder, open the console in this folder and write `npm install` and then `npm run dev`.
 2. Open in the browser `http://127.0.0.1:5173/`.
 3. The project has been launched!
+
+# Afterword
+The API authored by <a href="https://github.com/ByMykel/CSGO-API">ByMykel</a> is used as a sticker database.  
