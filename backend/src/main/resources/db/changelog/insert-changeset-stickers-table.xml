@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="insert-into-stickers" author="Tamada">
+        <insert tableName="stickers">
+            <column name="name" value="Lit (Holo)"/>
+            <column name="chars" value="lit"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Fluxo"/>
+            <column name="chars" value="fx"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Apeks"/>
+            <column name="chars" value="a"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Good Game"/>
+            <column name="chars" value="gg"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Natus Vincere"/>
+            <column name="chars" value="navi"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Vox Eminor"/>
+            <column name="chars" value="vox"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="FaZe Clan"/>
+            <column name="chars" value="f"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="GamerLegion"/>
+            <column name="chars" value="gl"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="dexter | Berlin 2019"/>
+            <column name="chars" value="sexter"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="dexter (Gold) | Berlin 2019"/>
+            <column name="chars" value="sexter"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="dexter (Foil) | Berlin 2019"/>
+            <column name="chars" value="sexter"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="dexter | Rio 2022"/>
+            <column name="chars" value="sexter"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="dexter (Holo) | Rio 2022"/>
+            <column name="chars" value="sexter"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="dexter (Glitter) | Rio 2022"/>
+            <column name="chars" value="sexter"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="dexter (Gold) | Rio 2022"/>
+            <column name="chars" value="sexter"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="dexter | Paris 2023"/>
+            <column name="chars" value="sex"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="dexter (Holo) | Paris 2023"/>
+            <column name="chars" value="sex"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="dexter (Glitter) | Paris 2023"/>
+            <column name="chars" value="sex"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="dexter (Gold) | Paris 2023"/>
+            <column name="chars" value="sex"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="paiN Gaming"/>
+            <column name="chars" value="p"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="DickStacy"/>
+            <column name="chars" value="dick"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Web Stuck"/>
+            <column name="chars" value="csgo"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="GO"/>
+            <column name="chars" value="go"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Miami Tier6"/>
+            <column name="chars" value="6"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Salty"/>
+            <column name="chars" value="salty"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Dirty Money"/>
+            <column name="chars" value="one"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Vitality"/>
+            <column name="chars" value="v"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Titan"/>
+            <column name="chars" value="t"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Flipsid3 Tactics"/>
+            <column name="chars" value="b"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="JT | Paris 2023"/>
+            <column name="chars" value="pi"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="JT (Holo) | Paris 2023"/>
+            <column name="chars" value="pi"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="JT (Gold) | Paris 2023"/>
+            <column name="chars" value="pi"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="JT (Glitter) | Paris 2023"/>
+            <column name="chars" value="pi"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Clan-Mystik"/>
+            <column name="chars" value="m"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Team EnvyUs"/>
+            <column name="chars" value="n"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Reason Gaming"/>
+            <column name="chars" value="r"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="INS | Rio 2022"/>
+            <column name="chars" value="w"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Vexed Gaming"/>
+            <column name="chars" value="x"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Have Fun"/>
+            <column name="chars" value="hf"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Rekt"/>
+            <column name="chars" value="rekt"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Peek Me (Foil)"/>
+            <column name="chars" value="peek"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Swag (Foil)"/>
+            <column name="chars" value="swag"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Evil Geniuses"/>
+            <column name="chars" value="o"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="compLexity Gaming | London 2018"/>
+            <column name="chars" value="o"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="compLexity Gaming (Foil) | London 2018"/>
+            <column name="chars" value="o"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="compLexity Gaming (Holo) | London 2018"/>
+            <column name="chars" value="o"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="compLexity Gaming | Katowice 2019"/>
+            <column name="chars" value="o"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="compLexity Gaming (Holo) | Katowice 2019"/>
+            <column name="chars" value="o"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="compLexity Gaming (Foil) | Katowice 2019"/>
+            <column name="chars" value="o"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Splyce"/>
+            <column name="chars" value="s"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="London Conspiracy"/>
+            <column name="chars" value="c"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="CR4ZY"/>
+            <column name="chars" value="4"/>
+        </insert>
+        <insert tableName="stickers">
+            <column name="name" value="Flashbang"/>
+            <column name="chars" value="i"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
