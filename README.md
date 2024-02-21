@@ -5,8 +5,10 @@ This service allows you to create words from CS2 stickers. The idea of creating 
 
 ## User guide
 1. Enter the word or phrase you want to generate.
-2. Choose whether to generate the word using Holo/Gold/Glitter/Foil stickers ("Use unusual stickers" checkbox).
+2. Choose whether to generate the word using Holo/Gold/Glitter/Foil stickers ("Use unusual stickers" checkbox) - by default, generating without unusual stickers.
 3. Choose from how many stickers to generate the word - by default, "5" is selected.
+4. Press "Generate" and wait for the generation to finish.
+5. Choose the stickers that you like the most, go to the market to buy them (just click on the sticker), and customize your skins!
 
 ## Demo
 ### Start page
