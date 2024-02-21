@@ -61,20 +61,25 @@ public record GenerateWordService(StickerRepository stickerRepository) {
         ArrayList<StickerImageDTO> stickersResult = new ArrayList<>();
 
         for (StickerDTO stickerDTO : stickersByCharComb) {
-            if (isCorrectAutograph(isUnusualSticks, stickerDTO.getName().toUpperCase(Locale.ROOT)))
-                stickersResult.add(new StickerImageDTO(getStickerImageSrc(stickerDTO.getName(), stickersJsonData), stickerDTO.getName()));
+            ArrayList<StickerInfoDTO> stickerInfoList = getStickerInfoDtosByChars(stickerDTO.getName(), stickersJsonData);
+
+            for (StickerInfoDTO stickerInfoDTO : stickerInfoList) {
+                if (isCorrectAutograph(isUnusualSticks, stickerInfoDTO.getName().toUpperCase(Locale.ROOT)))
+                    stickersResult.add(new StickerImageDTO(stickerInfoDTO.getImage(), stickerInfoDTO.getName()));
+            }
         }
 
         return stickersResult;
     }
 
 
-    private String getStickerImageSrc(String stickerName, ArrayList<StickerInfoDTO> stickersJsonData) {
+    private ArrayList<StickerInfoDTO> getStickerInfoDtosByChars(String stickerName, ArrayList<StickerInfoDTO> stickersJsonData) {
+        ArrayList<StickerInfoDTO> stickerInfoList = new ArrayList<>();
         for (StickerInfoDTO stickerInfoDTO : stickersJsonData) {
             if (stickerInfoDTO.getName().contains(stickerName))
-                return stickerInfoDTO.getImage();
+                stickerInfoList.add(stickerInfoDTO);
         }
-        return "";
+        return stickerInfoList;
     }
 
 
